@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saregama</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <style>
+        
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+    </style>
+</head>
+<!-- <audio  id="musicOne">
+    <source src="music2.mp3" type="audio/mpeg">
+    Your browser does not support the audio.
+</audio> -->
+<!-- <audio id="myAudio">
+    <source src="music2.mp3" type="audio/ogg"> -->
+    <!-- <source src="horse.mp3" type="audio/mpeg"> -->
+    <!-- Your browser does not support the audio element.
+  </audio> -->
+  <audio id="A">
+    <source src="alphabetmp3s/a.mp3" type="audio/ogg">
+    <!-- <source src="horse.mp3" type="audio/mpeg"> -->
+    Your browser does not support the audio element.
+  </audio>
+  
+<body>
+    <div id="navbar">
+        
+            <li><a class="simple" href="">Home</a></li>
+            <li><a class="simple" href="">About</a></li>
+            <li><a class="simple" href="https://namita18.000webhostapp.com/" target="_blank" rel="noopener noreferrer">Contact Us</a></li>
+       
+    </div>
+    <div class="keyboard">
+       
+           <p class="one"> <strong><span>SAREGAMA</span></strong> </p>
+           <div class="btn">
+                <button onclick="volume()" > Volume</button>
+                <button onclick="Set_vol2()" >+</button>
+                <button onclick="Set_vol1()">-</button>  
+                <button onclick="pause()"> Pause </button>
+                   
+            </div>
+                <br>
+
+              <div class="keys" style="margin-top: 10px;">
+             <button class="keys-line" onclick="play('a.mp3')" type="button" >
+                 A
+             </button>
+             <button class="keys-line" onclick="play('b.mp3')" type="button"  >
+                B
+            </button>
+            <button class="keys-line" onclick="play('c.mp3')" type="button">
+                C
+            </button>
+            <button class="keys-line" onclick="play('d.mp3')" type="button" >
+                D
+            </button>
+            <button class="keys-line" onclick="play('e.mp3')" type="button">
+                E
+            </button>
+            <button class="keys-line" onclick="play('f.mp3')" type="button" >
+                F
+            </button>
+            <button class="keys-line" onclick="play('g.mp3')" type="button">
+                G
+            </button>
+            <button class="keys-line" onclick="play('h.mp3')" type="button">
+                H
+            </button>
+            <button class="keys-line" onclick="play('i.mp3')" type="button">
+                I
+            </button>
+            <button class="keys-line" onclick="play('j.mp3')" type="button">
+                J
+            </button>
+            <br> </div>
+            <div class="keys" style="margin-top: 10px;">
+            <button class="keys-line" onclick="play('k.mp3')" type="button">
+                K
+            </button>
+            <button class="keys-line" onclick="play('L.mp3')" type="button">
+                L
+            </button>
+            <button class="keys-line" onclick="play('m.mp3')" type="button">
+                M
+            </button>
+            <button class="keys-line" onclick="play('n.mp3')" type="button">
+                N
+            </button>
+            <button class="keys-line" onclick="play('o.mp3')" type="button">
+                O
+            </button>
+            <button class="keys-line" onclick="play('p.mp3')" type="button">
+                P
+            </button>
+            <button class="keys-line" onclick="play('q.mp3')" type="button">
+                Q
+            </button>
+            <button class="keys-line" onclick="play('r.mp3')" type="button">
+                R
+            </button>
+            <button class="keys-line" onclick="play('s.mp3')" type="button">
+                S
+            </button><br> </div>
+            <div class="keys" style="margin-top: 10px;">
+            <button class="keys-line" onclick="play('t.mp3')" type="button">
+                T
+            </button>
+            <button class="keys-line" onclick="play('u.mp3')" type="button">
+                U
+            </button>
+            <button class="keys-line" onclick="play('v.mp3')" type="button">
+                V
+            </button>
+            <button class="keys-line" onclick="play('w.mp3')" type="button">
+                W
+            </button>
+            <button class="keys-line" onclick="play('x.mp3')" type="button">
+                X
+            </button>
+            <button class="keys-line" onclick="play('y.mp3')" type="button">
+                Y
+            </button>
+            <button class="keys-line" onclick="play('z.mp3')" onclick="pauseAudio()" type="button">
+                Z
+            </button>
+           
+            </div>
+            
+        </div>
+
+           
+    </div>
+ <p> Audio files are taken from <a href="http://https://mahdif.github.io/alphabets-game/" 
+    target="_blank" rel="noopener noreferrer"> <strong>alphabets-game</strong>  </a>
+for project purpose only.</p>
+</body>
+<script src="soundkey.js">
+    
+        </script>
+
+</html>
